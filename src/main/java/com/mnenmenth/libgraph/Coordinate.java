@@ -1,14 +1,11 @@
 package com.mnenmenth.libgraph;
 
 /**
- * Coordinate for use with {@link Graph}
- * @see Graph
+ * Converts unit coordinates to pixel points and vice versa
  *
  * @author Earl Kennedy
- * Please refer to LICENSE file if included
- * for licensing information
- * https://github.com/Mnenmenth
- * https://mnenmenth.com
+ * @author https://github.com/Mnenmenth
+ * @author https://mnenmenth.com
  */
 
 

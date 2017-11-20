@@ -121,29 +121,33 @@ public class Graph {
 
     /**
      * Number of integer units the graph contains on x axis
+     * @return integers on x axis
      */
-    private double xunits() {
+    public double xunits() {
         return (xmax < 0 ? -xmax : xmax) + (xmin < 0 ? -xmin : xmin);
     }
 
     /**
      * Pixel size of one unit on x axis
+     * @return size of one unit on x in pixels
      */
-    private double xtick() {
+    public double xtick() {
         return parentDim.width/xunits();
     }
 
     /**
      * Number of integer units the graph contains on y axis
+     * @return integers on y axis
      */
-    private double yunits() {
+    public double yunits() {
         return (ymax < 0 ? -ymax : ymax) + (ymin < 0 ? -ymin : ymin);
     }
 
     /**
      * Pixel size of one unit on y axis
+     * @return of one unit on y axis in pixels
      */
-    private double ytick() {
+    public double ytick() {
         return parentDim.height/yunits();
     }
 
