@@ -5,7 +5,6 @@ package com.mnenmenth.libgraph;
  *
  * @author Earl Kennedy
  * @author https://github.com/Mnenmenth
- * @author https://mnenmenth.com
  */
 
 
