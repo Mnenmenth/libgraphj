@@ -7,7 +7,6 @@ import java.awt.*;
  *
  * @author Earl Kennedy
  * @author https://github.com/Mnenmenth
- * @author https://mnenmenth.com
  */
 
 
